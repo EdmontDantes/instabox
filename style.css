@@ -3,25 +3,36 @@
 }
 #app {
         display: flex;
-        
-        justify-content: center;
+        height:100vh;
+        justify-content: space-evenly;
         flex-direction: column;
         border: 1px solid black;
 }
 #header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
         border: 1px solid black;
 }
 #insta-image {
-        border: 1px solid black;
+    border: 1px solid black;
 }
 #container-text {
-        border: 1px solid black;
+    border: 1px solid black;
 }
 #footer-category-images {
         display: flex;
         justify-content: center;
         flex-direction: row;
         border: 1px solid black;
+
+}
+
+
+#insta-image{
+    display: flex;
+    justify-content: flex-start;
+
 }
 /* .square{
 
